@@ -1,6 +1,7 @@
+using System.Globalization;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class ExpenseItemUI : MonoBehaviour
 {
@@ -11,27 +12,81 @@ public class ExpenseItemUI : MonoBehaviour
     public TMP_InputField amountText;
 
     private ExpenseData currentExpense;
-    private int expenseIndex;
 
     public void Setup(ExpenseData expense)
     {
         currentExpense = expense;
-        dateText.text = expense.date;
-        categoryText.text = expense.category;
-
-        descriptionText.text = expense.description;
-        amountText.text = expense.amount.ToString();
+        RefreshFromData();
     }
 
-    public void OnEditExpense()
+    public bool TryApplyChanges(out string errorMessage)
     {
-        // 編集画面のUIを呼び出し、ユーザーが内容を更新できるようにする
-        // 編集が完了したら、ExpenseManagerのUpdateExpenseDataを呼び出してJSONを更新
+        errorMessage = string.Empty;
+
+        if (currentExpense == null)
+        {
+            errorMessage = "データが見つかりません";
+            return false;
+        }
+
+        if (dateText != null)
+        {
+            currentExpense.date = dateText.text;
+        }
+
+        if (categoryText != null)
+        {
+            currentExpense.category = categoryText.text;
+        }
+
+        if (descriptionText != null)
+        {
+            currentExpense.description = descriptionText.text;
+        }
+
+        if (amountText != null)
+        {
+            string sanitized = amountText.text.Replace(",", string.Empty).Trim();
+
+            if (!int.TryParse(sanitized, NumberStyles.Integer, CultureInfo.CurrentCulture, out int parsedAmount))
+            {
+                errorMessage = "金額の形式が正しくありません";
+                amountText.text = currentExpense.amount.ToString(CultureInfo.CurrentCulture);
+                return false;
+            }
+
+            currentExpense.amount = Mathf.Max(0, parsedAmount);
+            amountText.text = currentExpense.amount.ToString(CultureInfo.CurrentCulture);
+        }
+
+        return true;
     }
 
-    public void OnDeleteExpense()
+    public void RefreshFromData()
     {
-        // 現在の項目を削除し、JSONファイルからも削除する処理を行う
-        Destroy(gameObject);
+        if (currentExpense == null)
+        {
+            return;
+        }
+
+        if (dateText != null)
+        {
+            dateText.text = currentExpense.date;
+        }
+
+        if (categoryText != null)
+        {
+            categoryText.text = currentExpense.category;
+        }
+
+        if (descriptionText != null)
+        {
+            descriptionText.text = currentExpense.description;
+        }
+
+        if (amountText != null)
+        {
+            amountText.text = currentExpense.amount.ToString(CultureInfo.CurrentCulture);
+        }
     }
 }
