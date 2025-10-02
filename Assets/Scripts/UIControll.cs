@@ -1,165 +1,251 @@
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class ButtonScaleAndImageManager : MonoBehaviour
 {
-    public List<Button> buttons0;  // UnityのInspectorでボタンを設定
-    public List<Button> buttons1;  // UnityのInspectorでボタンを設定
-    public List<Button> buttons20;  // UnityのInspectorでボタンを設定
-    public List<Button> buttons21;  // UnityのInspectorでボタンを設定
-    public List<Button> buttons22;  // UnityのInspectorでボタンを設定
-    public List<Button> buttons23;  // UnityのInspectorでボタンを設定
-    private List<List<Button>> buttons2Group;  // 合体したボタンリスト
-    public List<Button> buttons3;  // UnityのInspectorでボタンを設定
-
-    public List<Image> arrow1;     // UnityのInspectorで矢印を設定
-
-    public Sprite selectedSprite0; // 選択されたときの画像
-    public Sprite normalSprite0;   // 通常の画像
-
-    public Sprite selectedSprite1; // 選択されたときの画像
-    public Sprite normalSprite1;   // 通常の画像
-
-    public Sprite selectedSprite2; // 選択されたときの画像
-    public Sprite normalSprite2;   // 通常の画像
-
-    public Sprite selectedSprite3; // 選択されたときの画像
-    public Sprite normalSprite3;   // 通常の画像
-
-    public ScrollRect scrollRect;  // Scroll Rect コンポーネント
-
-    private const float selectedScale2 = 1.13f;
-    private const float normalScale2 = 1.0f;
-
-    private const float selectedScale3 = 1.1f;
-    private const float normalScale3 = 0.7f;
-
-    void Start()
+    [System.Serializable]
+    public class ButtonGroupConfig
     {
-        foreach (Button button in buttons0)
-        {
-            button.onClick.AddListener(() => UiClick0(button));
-        }
-        foreach (Button button in buttons1)
-        {
-            button.onClick.AddListener(() => UiClick1(button));
-        }
+        [Tooltip("Optional label to make it easier to identify the group in the inspector.")]
+        public string groupName;
 
-        buttons2Group = new List<List<Button>> { buttons20, buttons21, buttons22, buttons23 };
-        foreach (List<Button> buttons in buttons2Group)
+        [Tooltip("Buttons that belong to this group.")]
+        public List<Button> buttons = new List<Button>();
+
+        [Tooltip("Sprite used when a button is not selected. Leave empty to keep the original sprite.")]
+        public Sprite normalSprite;
+
+        [Tooltip("Sprite used when a button is selected. Leave empty to keep the original sprite.")]
+        public Sprite selectedSprite;
+
+        [Header("Scaling")]
+        [Tooltip("Enable to apply scaling when a button is selected.")]
+        public bool applyScale;
+
+        [Tooltip("Scale applied when a button is selected.")]
+        public float selectedScale = 1.1f;
+
+        [Tooltip("Scale applied when a button is not selected.")]
+        public float normalScale = 1.0f;
+
+        [Header("Arrows")]
+        [Tooltip("Enable to toggle arrow indicators that correspond to each button.")]
+        public bool toggleArrowIndicators;
+
+        [Tooltip("Arrow indicators that should mirror the selection state. The list should match the button count.")]
+        public List<Image> arrowIndicators = new List<Image>();
+
+        [Header("Selection Behaviour")]
+        [Tooltip("Select and highlight the first button in the list when the scene starts.")]
+        public bool selectFirstOnStart;
+
+        [Tooltip("Center the selected button inside the associated ScrollRect viewport.")]
+        public bool centerSelectedButton;
+    }
+
+    [SerializeField]
+    private List<ButtonGroupConfig> buttonGroups = new List<ButtonGroupConfig>();
+
+    [SerializeField]
+    [Tooltip("ScrollRect used when centering buttons. Optional unless 'Center Selected Button' is enabled on a group.")]
+    private ScrollRect scrollRect;
+
+    private readonly Dictionary<Button, UnityAction> _registeredListeners = new Dictionary<Button, UnityAction>();
+
+    private void OnEnable()
+    {
+        RegisterButtonListeners();
+        InitializeGroups();
+    }
+
+    private void OnDisable()
+    {
+        foreach (KeyValuePair<Button, UnityAction> entry in _registeredListeners)
         {
-            foreach (Button button in buttons)
+            if (entry.Key != null)
             {
-                button.onClick.AddListener(() => UiClick2(button, buttons));
+                entry.Key.onClick.RemoveListener(entry.Value);
             }
         }
 
-        foreach (Button button in buttons3)
+        _registeredListeners.Clear();
+    }
+
+    private void RegisterButtonListeners()
+    {
+        for (int groupIndex = 0; groupIndex < buttonGroups.Count; groupIndex++)
         {
-            button.onClick.AddListener(() => UiClick3(button));
-        }
-        // 初期状態として最初のボタンに対応する矢印のみを表示
-        for (int i = 0; i < arrow1.Count; i++)
-        {
-            arrow1[i].gameObject.SetActive(i == 0);
+            ButtonGroupConfig group = buttonGroups[groupIndex];
+
+            if (group == null)
+            {
+                continue;
+            }
+
+            foreach (Button button in group.buttons)
+            {
+                if (button == null || _registeredListeners.ContainsKey(button))
+                {
+                    continue;
+                }
+
+                int capturedGroupIndex = groupIndex;
+                Button capturedButton = button;
+                UnityAction handler = () => HandleButtonClick(capturedGroupIndex, capturedButton);
+
+                button.onClick.AddListener(handler);
+                _registeredListeners.Add(capturedButton, handler);
+            }
         }
     }
 
-    void UiClick0(Button clickedButton)
+    private void InitializeGroups()
     {
-        foreach (Button button in buttons0)
+        for (int groupIndex = 0; groupIndex < buttonGroups.Count; groupIndex++)
         {
-            Image buttonImage = button.GetComponent<Image>();
+            ButtonGroupConfig group = buttonGroups[groupIndex];
 
-            if (button == clickedButton)
+            if (group == null || group.buttons.Count == 0)
             {
-                buttonImage.sprite = selectedSprite0;
+                continue;
+            }
+
+            Button defaultButton = group.selectFirstOnStart ? group.buttons[0] : null;
+
+            for (int buttonIndex = 0; buttonIndex < group.buttons.Count; buttonIndex++)
+            {
+                Button button = group.buttons[buttonIndex];
+
+                if (button == null)
+                {
+                    continue;
+                }
+
+                bool isSelected = button == defaultButton;
+                ApplyButtonVisualState(group, button, isSelected);
+                UpdateArrowIndicator(group, buttonIndex, isSelected);
+            }
+        }
+    }
+
+    private void HandleButtonClick(int groupIndex, Button clickedButton)
+    {
+        if (groupIndex < 0 || groupIndex >= buttonGroups.Count)
+        {
+            return;
+        }
+
+        ButtonGroupConfig group = buttonGroups[groupIndex];
+
+        if (group == null)
+        {
+            return;
+        }
+
+        for (int buttonIndex = 0; buttonIndex < group.buttons.Count; buttonIndex++)
+        {
+            Button button = group.buttons[buttonIndex];
+
+            if (button == null)
+            {
+                continue;
+            }
+
+            bool isSelected = button == clickedButton;
+            ApplyButtonVisualState(group, button, isSelected);
+            UpdateArrowIndicator(group, buttonIndex, isSelected);
+        }
+
+        if (group.centerSelectedButton)
+        {
+            if (scrollRect == null)
+            {
+                Debug.LogWarning($"[{nameof(ButtonScaleAndImageManager)}] ScrollRect is not assigned but 'Center Selected Button' is enabled for group '{group.groupName}'.");
             }
             else
             {
-                buttonImage.sprite = normalSprite0;
+                CenterButtonInView(clickedButton);
             }
         }
     }
 
-    void UiClick1(Button clickedButton)
+    private static void ApplyButtonVisualState(ButtonGroupConfig group, Button button, bool isSelected)
     {
-        for (int i = 0; i < buttons1.Count; i++)
+        Image buttonImage = button.GetComponent<Image>();
+
+        if (buttonImage != null)
         {
-            Image buttonImage = buttons1[i].GetComponent<Image>();
+            Sprite targetSprite = isSelected ? group.selectedSprite : group.normalSprite;
 
-            if (buttons1[i] == clickedButton)
+            if (targetSprite != null)
             {
-                buttonImage.sprite = selectedSprite1;
-                arrow1[i].gameObject.SetActive(true);  // 矢印を表示
-            }
-            else
-            {
-                buttonImage.sprite = normalSprite1;
-                arrow1[i].gameObject.SetActive(false);  // 矢印を非表示
+                buttonImage.sprite = targetSprite;
             }
         }
-    }
 
-    void UiClick2(Button clickedButton, List<Button> buttons2)
-    {
-        foreach (Button button in buttons2)
+        if (group.applyScale)
         {
-            Image buttonImage = button.GetComponent<Image>();
-
-            if (button == clickedButton)
-            {
-                button.transform.localScale = new Vector3(selectedScale2, selectedScale2, selectedScale2);
-                buttonImage.sprite = selectedSprite2;
-            }
-            else
-            {
-                button.transform.localScale = new Vector3(normalScale2, normalScale2, normalScale2);
-                buttonImage.sprite = normalSprite2;
-            }
+            float targetScale = isSelected ? group.selectedScale : group.normalScale;
+            button.transform.localScale = Vector3.one * targetScale;
         }
     }
 
-    void UiClick3(Button clickedButton)
+    private void UpdateArrowIndicator(ButtonGroupConfig group, int buttonIndex, bool isSelected)
     {
-        foreach (Button button in buttons3)
+        if (!group.toggleArrowIndicators)
         {
-            Image buttonImage = button.GetComponent<Image>();
+            return;
+        }
 
-            if (button == clickedButton)
-            {
-                button.transform.localScale = new Vector3(selectedScale3, selectedScale3, selectedScale3);
-                buttonImage.sprite = selectedSprite3;
-                CenterButtonInView(clickedButton); // ボタンを中央にスクロールする
-            }
-            else
-            {
-                button.transform.localScale = new Vector3(normalScale3, normalScale3, normalScale3);
-                buttonImage.sprite = normalSprite3;
-            }
+        if (buttonIndex >= group.arrowIndicators.Count)
+        {
+            Debug.LogWarning($"[{nameof(ButtonScaleAndImageManager)}] Arrow indicator count does not match button count in group '{group.groupName}'.");
+            return;
+        }
+
+        Image arrow = group.arrowIndicators[buttonIndex];
+
+        if (arrow != null)
+        {
+            arrow.gameObject.SetActive(isSelected);
         }
     }
 
-    void CenterButtonInView(Button button)
+    private void CenterButtonInView(Button button)
     {
+        if (scrollRect == null)
+        {
+            return;
+        }
+
         RectTransform contentRect = scrollRect.content;
-        RectTransform buttonRect = button.GetComponent<RectTransform>();
+        RectTransform viewportRect = scrollRect.viewport != null ? scrollRect.viewport : scrollRect.GetComponent<RectTransform>();
+        RectTransform buttonRect = button != null ? button.GetComponent<RectTransform>() : null;
+
+        if (contentRect == null || viewportRect == null || buttonRect == null)
+        {
+            return;
+        }
 
         float contentWidth = contentRect.rect.width;
-        float viewportWidth = scrollRect.viewport.rect.width;
+        float viewportWidth = viewportRect.rect.width;
 
-        // ボタンの中心を計算
-        float buttonCenterPosition = buttonRect.localPosition.x + contentRect.localPosition.x;
+        if (contentWidth <= viewportWidth)
+        {
+            contentRect.anchoredPosition = new Vector2(0f, contentRect.anchoredPosition.y);
+            return;
+        }
 
-        // 新しいアンカー位置を計算
-        float newAnchoredPositionX = buttonCenterPosition - (viewportWidth / 2);
+        Vector2 buttonLocalPosition = contentRect.InverseTransformPoint(buttonRect.transform.position);
+        float buttonCenterLocalX = buttonLocalPosition.x;
+        float halfViewportWidth = viewportWidth * 0.5f;
 
-        // コンテンツの幅とビューポートの幅を考慮して範囲を制限
-        newAnchoredPositionX = Mathf.Clamp(newAnchoredPositionX, 0, contentWidth - viewportWidth);
+        float clampedPosition = Mathf.Clamp(buttonCenterLocalX - halfViewportWidth, 0f, contentWidth - viewportWidth);
 
-        // 新しいアンカー位置を設定
-        Vector2 newAnchoredPosition = new Vector2(-newAnchoredPositionX, contentRect.anchoredPosition.y);
-        contentRect.anchoredPosition = newAnchoredPosition;
+        Vector2 currentAnchoredPosition = contentRect.anchoredPosition;
+        currentAnchoredPosition.x = -clampedPosition;
+        contentRect.anchoredPosition = currentAnchoredPosition;
     }
 }
