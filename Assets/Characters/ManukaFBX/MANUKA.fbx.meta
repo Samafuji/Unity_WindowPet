@@ -1,0 +1,2226 @@
+fileFormatVersion: 2
+guid: 43dccc72ae088a840be9949ed8710685
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_body
+    second: {fileID: 2100000, guid: ada494ab75f70a046a512e361426c169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_costume
+    second: {fileID: 2100000, guid: aa9788a03bdbde545838b040994f3dc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_face
+    second: {fileID: 2100000, guid: 1db78df94b4897548a21a72d9b11a89a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_hair
+    second: {fileID: 2100000, guid: 476f94c590bef294d89de368aab7748b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manuka_option
+    second: {fileID: 2100000, guid: d8e0e7229c81ddf43a0c7b2c2a06c913, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftEye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightEye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Tang
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbProximal_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbIntermediate_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbDistal_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexProximal_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexIntermediate_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexDistal_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleProximal_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleIntermediate_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleDistal_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingProximal_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingIntermediate_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingDistal_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LittleProximal_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LittleIntermediate_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LittleDistal_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbProximal_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbIntermediate_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbDistal_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexProximal_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexIntermediate_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexDistal_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleProximal_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleIntermediate_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleDistal_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingProximal_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingIntermediate_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingDistal_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LittleProximal_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LittleIntermediate_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LittleDistal_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: MANUKA(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Armature
+      position: {x: -8.280191e-17, y: -0.032065224, z: 0.7833163}
+      rotation: {x: 0.70710665, y: 0, z: -0, w: 0.7071069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Butt_L
+      parentName: Hips
+      position: {x: -0.05026248, y: -0.04934907, z: -0.034147594}
+      rotation: {x: -0.8188186, y: 0.08097468, z: 0.08097471, w: 0.56251425}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Butt_L_end
+      parentName: Butt_L
+      position: {x: 0.000000008381903, y: 0.047021016, z: 0.000000053085387}
+      rotation: {x: 0.92464274, y: -0.045383718, z: -0.33965594, w: 0.16616239}
+      scale: {x: 0.99999994, y: 1, z: 1.000001}
+    - name: Butt_L_end_end
+      parentName: Butt_L_end
+      position: {x: -0, y: 0.047019012, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Butt_R
+      parentName: Hips
+      position: {x: 0.05026248, y: -0.04934907, z: -0.034147594}
+      rotation: {x: -0.8188186, y: -0.08097468, z: -0.08097471, w: 0.56251425}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Butt_R_end
+      parentName: Butt_R
+      position: {x: -0.000000008381903, y: 0.047021016, z: 0.000000053085387}
+      rotation: {x: 0.92464256, y: 0.045383453, z: 0.3396572, w: 0.16616124}
+      scale: {x: 1, y: 1, z: 1.0000015}
+    - name: Butt_R_end_end
+      parentName: Butt_R_end
+      position: {x: -0, y: 0.047018953, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_root
+      parentName: Hips
+      position: {x: -0, y: 0.013229363, z: 0.000000001349008}
+      rotation: {x: 0.00000009905972, y: -0.000000119209275, z: -1.1808837e-14, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Manuka_apron_1_L
+      parentName: Manuka_apron_root
+      position: {x: -0.021948716, y: 0.04041445, z: 0.061450332}
+      rotation: {x: 0.99620575, y: -0.023761926, z: 0.062164124, w: 0.056080885}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000032}
+    - name: Manuka_apron_1_L.001
+      parentName: Manuka_apron_1_L
+      position: {x: -0.0000000037252903, y: 0.091610886, z: 0.0000000044237822}
+      rotation: {x: 0.00000012258535, y: 0.000000035273846, z: -0.000000049592934, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Manuka_apron_1_L.001_end
+      parentName: Manuka_apron_1_L.001
+      position: {x: -0.0000000018626451, y: 0.079597875, z: -0.0000000041909516}
+      rotation: {x: -0.000000056927096, y: -0.00000006787014, z: 0.00000007660128, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_apron_1_L.001_end_end
+      parentName: Manuka_apron_1_L.001_end
+      position: {x: -0, y: 0.09161093, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_1_R
+      parentName: Manuka_apron_root
+      position: {x: 0.021948745, y: 0.04041445, z: 0.06145034}
+      rotation: {x: 0.99620545, y: 0.023761656, z: -0.062170412, w: 0.056080114}
+      scale: {x: 1.0000069, y: 1.0000002, z: 1.0000277}
+    - name: Manuka_apron_1_R.001
+      parentName: Manuka_apron_1_R
+      position: {x: 9.313226e-10, y: 0.09161103, z: 0.000000042608008}
+      rotation: {x: 0.00000008766075, y: -0.000000073225245, z: 0.00000004749746, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: Manuka_apron_1_R.001_end
+      parentName: Manuka_apron_1_R.001
+      position: {x: -0, y: 0.07959788, z: 0.0000000081490725}
+      rotation: {x: -0.00000003841706, y: 0.00000006856863, z: -0.00000007939526, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Manuka_apron_1_R.001_end_end
+      parentName: Manuka_apron_1_R.001_end
+      position: {x: -0, y: 0.09161093, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_2_L
+      parentName: Manuka_apron_root
+      position: {x: -0.06451992, y: 0.04385459, z: 0.04006603}
+      rotation: {x: 0.9820784, y: -0.059888117, z: 0.15855154, w: 0.08244346}
+      scale: {x: 0.99999785, y: 1, z: 0.9999979}
+    - name: Manuka_apron_2_L.001
+      parentName: Manuka_apron_2_L
+      position: {x: -0.0000000018626451, y: 0.09226868, z: -0.000000007450581}
+      rotation: {x: 0.000000067055225, y: 0.000000045169152, z: 0.000000011175872, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Manuka_apron_2_L.001_end
+      parentName: Manuka_apron_2_L.001
+      position: {x: 0.0000000055879354, y: 0.07623999, z: 0.000000013038516}
+      rotation: {x: -0.00000012200326, y: -0.00000006752089, z: 0.0000000027939677, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Manuka_apron_2_L.001_end_end
+      parentName: Manuka_apron_2_L.001_end
+      position: {x: -0, y: 0.09226868, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_2_R
+      parentName: Manuka_apron_root
+      position: {x: 0.064519934, y: 0.04385459, z: 0.040066}
+      rotation: {x: 0.98207825, y: 0.059888184, z: -0.15855208, w: 0.08244348}
+      scale: {x: 0.99999845, y: 0.99999994, z: 0.9999985}
+    - name: Manuka_apron_2_R.001
+      parentName: Manuka_apron_2_R
+      position: {x: 0.0000000037252903, y: 0.09226868, z: 0.0000000037252903}
+      rotation: {x: 0.000000063329935, y: -0.000000027939677, z: 0.000000037252903, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_2_R.001_end
+      parentName: Manuka_apron_2_R.001
+      position: {x: 0.000000011175871, y: 0.07623998, z: 0.000000007450581}
+      rotation: {x: -0.0000001238659, y: 0.000000070314854, z: 0.000000020489097, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_2_R.001_end_end
+      parentName: Manuka_apron_2_R.001_end
+      position: {x: -0, y: 0.09226868, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tail
+      parentName: Hips
+      position: {x: -3.1071418e-18, y: 0.013993391, z: -0.06659888}
+      rotation: {x: -0.8592517, y: -0.061391417, z: -0.036192823, w: 0.5065647}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: Manuka_tail.001
+      parentName: Manuka_tail
+      position: {x: 0.000000004656613, y: 0.07170798, z: 0.000000052685756}
+      rotation: {x: -0.28938106, y: -0.04037424, z: 0.0038520943, w: 0.9563544}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Manuka_tail.002
+      parentName: Manuka_tail.001
+      position: {x: -0.000000014901161, y: 0.09044229, z: 0.000000021306805}
+      rotation: {x: -0.18788028, y: -0.008571885, z: 0.08729985, w: 0.978267}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Manuka_tail.003
+      parentName: Manuka_tail.002
+      position: {x: 0.0000000022118911, y: 0.11186612, z: 0.00000001728149}
+      rotation: {x: -0.023840053, y: 0.0019396656, z: 0.037758294, w: 0.9990006}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: Manuka_tail.004
+      parentName: Manuka_tail.003
+      position: {x: -0.0000000061118044, y: 0.114528306, z: 0.0000000048772932}
+      rotation: {x: 0.08034381, y: -0.012036817, z: -0.029495738, w: 0.996258}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_tail.005
+      parentName: Manuka_tail.004
+      position: {x: 0.000000003259629, y: 0.1283602, z: 0.0000000016880222}
+      rotation: {x: 0.25708833, y: 0.04165564, z: -0.18103068, w: 0.94836617}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Manuka_tail.006
+      parentName: Manuka_tail.005
+      position: {x: -0, y: 0.12630251, z: 0.000000018451829}
+      rotation: {x: 0.29485694, y: 0.12317053, z: -0.15377134, w: 0.93500954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tail.007
+      parentName: Manuka_tail.006
+      position: {x: 0.000000007450581, y: 0.13362394, z: 0.000000023748726}
+      rotation: {x: 0.27518067, y: 0.19569074, z: 0.006819834, w: 0.9412408}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Manuka_tail.007_end
+      parentName: Manuka_tail.007
+      position: {x: 0.000000007450581, y: 0.1056562, z: -0.0000000027939677}
+      rotation: {x: 0.120119475, y: 0.10346569, z: -0.011617396, w: 0.9872848}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Manuka_tail.007_end_end
+      parentName: Manuka_tail.007_end
+      position: {x: -0, y: 0.09014309, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -1.6560381e-16, y: 0.038121395, z: -0.0000000011699797}
+      rotation: {x: 0.00000002715326, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Spine
+      position: {x: -0, y: 0.07771116, z: -0.000000001075918}
+      rotation: {x: -0.13523655, y: -1.09645e-15, z: -1.0964503e-15, w: 0.9908134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Breast_L
+      parentName: Chest
+      position: {x: -0.033462644, y: 0.06789823, z: 0.01491702}
+      rotation: {x: -0.051773418, y: 0.5949458, z: 0.79721594, w: 0.08835051}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Breast_L.001
+      parentName: Breast_L
+      position: {x: -0, y: 0.083897375, z: 0.0000000019790605}
+      rotation: {x: -0.6913897, y: 0.15602876, z: 0.70372623, w: -0.049037945}
+      scale: {x: 1.0000005, y: 1, z: 1.0000018}
+    - name: Breast_L.001_end
+      parentName: Breast_L.001
+      position: {x: 0.000000015599653, y: 0.057585485, z: 0.0000000037252903}
+      rotation: {x: -0.00000011431983, y: 0.0000018132848, z: 0.0000020354053, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Breast_L.001_end_end
+      parentName: Breast_L.001_end
+      position: {x: -0, y: 0.05758555, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Breast_R
+      parentName: Chest
+      position: {x: 0.033462644, y: 0.06789823, z: 0.01491702}
+      rotation: {x: 0.051773418, y: 0.5949458, z: 0.79721594, w: -0.08835051}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Breast_R.001
+      parentName: Breast_R
+      position: {x: -0, y: 0.083897375, z: 0.0000000019790605}
+      rotation: {x: 0.6913897, y: 0.15602876, z: 0.70372623, w: 0.049037945}
+      scale: {x: 1.0000005, y: 1, z: 1.0000018}
+    - name: Breast_R.001_end
+      parentName: Breast_R.001
+      position: {x: -0.000000015599653, y: 0.057585485, z: 0.0000000037252903}
+      rotation: {x: -0.00000027427447, y: -0.0000014314427, z: -0.0000022086315, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Breast_R.001_end_end
+      parentName: Breast_R.001_end
+      position: {x: -0, y: 0.05758548, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_nameplate
+      parentName: Chest
+      position: {x: -0.06758685, y: 0.059056252, z: 0.05623599}
+      rotation: {x: 0.9128721, y: -0.012639826, z: 0.40804687, w: 0.0016243471}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1}
+    - name: Manuka_apron_nameplate_end
+      parentName: Manuka_apron_nameplate
+      position: {x: 0.000000022351742, y: 0.030527242, z: -0.0000000037252903}
+      rotation: {x: 0.09237147, y: 0.035396576, z: 0.06365273, w: 0.99305737}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Manuka_apron_nameplate_end_end
+      parentName: Manuka_apron_nameplate_end
+      position: {x: -0, y: 0.0256346, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tie
+      parentName: Chest
+      position: {x: -2.2777102e-16, y: 0.11558383, z: 0.04533941}
+      rotation: {x: 0.98479086, y: 0.0000000414238, z: 0.00000023479251, w: 0.1737439}
+      scale: {x: 1, y: 1, z: 0.9999995}
+    - name: Manuka_tie.001
+      parentName: Manuka_tie
+      position: {x: 2.3079088e-14, y: 0.02331648, z: 0.000000007450581}
+      rotation: {x: -0.109943576, y: -9.578843e-14, z: -0.00000005242518, w: 0.99393785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tie.002
+      parentName: Manuka_tie.001
+      position: {x: 3.425079e-14, y: 0.024092518, z: -0.000000037252903}
+      rotation: {x: 0.009925683, y: 0.00000011920355, z: 0.0000000059161698, w: 0.99995077}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tie.003
+      parentName: Manuka_tie.002
+      position: {x: -5.2373592e-14, y: 0.023480795, z: -0.000000007450581}
+      rotation: {x: 0.3499474, y: -1.09095845e-13, z: 0.0000002503018, w: 0.93676937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tie.004
+      parentName: Manuka_tie.003
+      position: {x: -4.390697e-15, y: 0.03162401, z: -0.000000007450581}
+      rotation: {x: 0.052983206, y: 7.692072e-15, z: 0.000000037896562, w: 0.9985954}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Manuka_tie.005
+      parentName: Manuka_tie.004
+      position: {x: 3.1398198e-15, y: 0.03132161, z: -0.000000007450581}
+      rotation: {x: 1.42108064e-14, y: -6.352748e-22, z: -3.5527145e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tie.005_end
+      parentName: Manuka_tie.005
+      position: {x: 2.4921768e-15, y: 0.031084383, z: -0.000000007450581}
+      rotation: {x: 1.4210803e-14, y: 3.2500068e-34, z: -8.4703204e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_tie.005_end_end
+      parentName: Manuka_tie.005_end
+      position: {x: -0, y: 0.029429376, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -7.520088e-17, y: 0.1510505, z: 0.010741456}
+      rotation: {x: 0.1576452, y: -0.000000117718606, z: -0.000000018792678, w: 0.98749584}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Head
+      parentName: Neck
+      position: {x: -3.6812137e-16, y: 0.044952188, z: 9.313226e-10}
+      rotation: {x: -0.02265075, y: 0.00000011917858, z: 0.0000000027000358, w: 0.99974346}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Cheek_root_L
+      parentName: Head
+      position: {x: -0.022340035, y: 0.011043365, z: 0.04343378}
+      rotation: {x: 0.7355919, y: -0.16836329, z: 0.44913873, w: 0.47836486}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Cheek_L
+      parentName: Cheek_root_L
+      position: {x: 0.000000024214387, y: 0.010397486, z: 0.000000024680048}
+      rotation: {x: -0.000006424263, y: 0.000008599833, z: -0.0000018514693, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cheek_L_end
+      parentName: Cheek_L
+      position: {x: -0.0000000037252903, y: 0.022983408, z: -0.000000054948032}
+      rotation: {x: -0.0000036768615, y: -0.000015717, z: -0.00000037066636, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Cheek_L_end_end
+      parentName: Cheek_L_end
+      position: {x: -0, y: 0.022983465, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cheek_root_R
+      parentName: Head
+      position: {x: 0.022340035, y: 0.011043365, z: 0.04343378}
+      rotation: {x: 0.7355919, y: 0.16836329, z: -0.44913873, w: 0.47836486}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Cheek_R
+      parentName: Cheek_root_R
+      position: {x: -0.000000024214387, y: 0.010397486, z: 0.000000024680048}
+      rotation: {x: -0.000006424263, y: -0.000008599833, z: 0.0000018514693, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cheek_R_end
+      parentName: Cheek_R
+      position: {x: 0.0000000037252903, y: 0.022983408, z: -0.000000054948032}
+      rotation: {x: -0.000007227063, y: 0.000015975907, z: 0.0000014975667, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cheek_R_end_end
+      parentName: Cheek_R_end
+      position: {x: -0, y: 0.022983523, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftEye
+      parentName: Head
+      position: {x: -0.030189155, y: 0.041880526, z: 0.026592825}
+      rotation: {x: -0.00000065922706, y: 4.6803403e-13, z: -3.0514274e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftEye_end
+      parentName: LeftEye
+      position: {x: -0, y: 0.052271724, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_root
+      parentName: Head
+      position: {x: -3.62989e-15, y: 0.017622363, z: 0.0062376414}
+      rotation: {x: 7.887994e-21, y: -0.00000011920903, z: -4.1892492e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_ear_L
+      parentName: Manuka_hair_root
+      position: {x: -0.06955302, y: 0.13254131, z: 0.0025978554}
+      rotation: {x: -0.33352616, y: 0.9249087, z: 0.1803986, w: 0.027578417}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: Manuka_ear_L.001
+      parentName: Manuka_ear_L
+      position: {x: 0.000000051688403, y: 0.02562233, z: -0.000000013969839}
+      rotation: {x: -0.030256951, y: -0.114840746, z: 0.08979603, w: 0.9888543}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Manuka_ear_L.001_end
+      parentName: Manuka_ear_L.001
+      position: {x: -0.000000059604645, y: 0.025498372, z: -0.000000020489097}
+      rotation: {x: -0.028373174, y: -0.10516441, z: 0.0824738, w: 0.9906228}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: Manuka_ear_L.001_end_end
+      parentName: Manuka_ear_L.001_end
+      position: {x: -0, y: 0.023977775, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_ear_R
+      parentName: Manuka_hair_root
+      position: {x: 0.06955302, y: 0.13254131, z: 0.0025978223}
+      rotation: {x: 0.3335262, y: 0.9249087, z: 0.18039846, w: -0.027578589}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.99999994}
+    - name: Manuka_ear_R.001
+      parentName: Manuka_ear_R
+      position: {x: -9.313226e-10, y: 0.025622379, z: 0.000000012572855}
+      rotation: {x: -0.03025692, y: 0.11484073, z: -0.08979597, w: 0.9888543}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Manuka_ear_R.001_end
+      parentName: Manuka_ear_R.001
+      position: {x: -0.000000038184226, y: 0.02549844, z: -0.000000028871}
+      rotation: {x: -0.028373213, y: 0.10516443, z: -0.082473755, w: 0.9906228}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Manuka_ear_R.001_end_end
+      parentName: Manuka_ear_R.001_end
+      position: {x: -0, y: 0.023977775, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ahoge
+      parentName: Manuka_hair_root
+      position: {x: -0.00089721644, y: 0.15678662, z: 0.039804783}
+      rotation: {x: 0.36118644, y: 0.30794233, z: -0.114546135, w: 0.87269413}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Manuka_hair_ahoge.001
+      parentName: Manuka_hair_ahoge
+      position: {x: -2.3283064e-10, y: 0.0127722435, z: 0.00000002165325}
+      rotation: {x: -0.13268813, y: 0.08652625, z: -0.06061111, w: 0.9855117}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: Manuka_hair_ahoge.002
+      parentName: Manuka_hair_ahoge.001
+      position: {x: -0.000000027008355, y: 0.012212371, z: 0.000000110827386}
+      rotation: {x: -0.046385802, y: 0.83339345, z: -0.32260934, w: 0.44634843}
+      scale: {x: 1, y: 0.99999964, z: 1}
+    - name: Manuka_hair_ahoge.003
+      parentName: Manuka_hair_ahoge.002
+      position: {x: 4.656613e-10, y: 0.011533744, z: -0.0000000119325705}
+      rotation: {x: 0.2892077, y: 0.28644836, z: -0.18614641, w: 0.8942347}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Manuka_hair_ahoge.004
+      parentName: Manuka_hair_ahoge.003
+      position: {x: 0.000000017462298, y: 0.011201816, z: -0.0000000030267984}
+      rotation: {x: 0.37197414, y: 0.021464674, z: -0.067894414, w: 0.9255079}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Manuka_hair_ahoge.005
+      parentName: Manuka_hair_ahoge.004
+      position: {x: -0.0000000037252903, y: 0.013567659, z: 0.000000037776772}
+      rotation: {x: 0.29767224, y: -0.008969753, z: -0.023265192, w: 0.9543425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ahoge.005_end
+      parentName: Manuka_hair_ahoge.005
+      position: {x: -0.0000000013969839, y: 0.011591356, z: 0.000000066589564}
+      rotation: {x: 0.12291299, y: -0.0042438726, z: -0.004233265, w: 0.9923994}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Manuka_hair_ahoge.005_end_end
+      parentName: Manuka_hair_ahoge.005_end
+      position: {x: -0, y: 0.013566128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_bun_L
+      parentName: Manuka_hair_root
+      position: {x: -0.09816761, y: 0.07743452, z: -0.031412527}
+      rotation: {x: -0.6703168, y: 0.73721266, z: -0.06498257, w: 0.054498974}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.99999994}
+    - name: Manuka_hair_bun_L.001
+      parentName: Manuka_hair_bun_L
+      position: {x: -0.00000018342689, y: 0.06670699, z: -0.0000000037252903}
+      rotation: {x: -0.000000020081643, y: 0.00000006204937, z: 0.00000030061346, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Manuka_hair_bun_L.001_end
+      parentName: Manuka_hair_bun_L.001
+      position: {x: -0, y: 0.06251205, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_bun_R
+      parentName: Manuka_hair_root
+      position: {x: 0.0981676, y: 0.07743452, z: -0.03141257}
+      rotation: {x: 0.67031676, y: 0.7372127, z: -0.064982735, w: -0.05449915}
+      scale: {x: 0.9999999, y: 0.99999946, z: 0.99999994}
+    - name: Manuka_hair_bun_R_end
+      parentName: Manuka_hair_bun_R
+      position: {x: 0.00000018627907, y: 0.06670699, z: 0.000000007450581}
+      rotation: {x: 0.000000009429642, y: -0.00000006065238, z: -0.00000030201045, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_hair_bun_R_end_end
+      parentName: Manuka_hair_bun_R_end
+      position: {x: -0, y: 0.06251205, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_front_1
+      parentName: Manuka_hair_root
+      position: {x: -0.0052726762, y: 0.0823648, z: 0.09164689}
+      rotation: {x: 0.9959113, y: 0.07865317, z: -0.0034979924, w: -0.044296272}
+      scale: {x: 1.0000032, y: 1.0000001, z: 1.0000011}
+    - name: Manuka_hair_front_1.001
+      parentName: Manuka_hair_front_1
+      position: {x: -0.000000025059911, y: 0.029648678, z: -0.000000015381374}
+      rotation: {x: 0.14673738, y: -0.03701464, z: -0.08868466, w: 0.98449636}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Manuka_hair_front_1.001_end
+      parentName: Manuka_hair_front_1.001
+      position: {x: -0.000000015366822, y: 0.030483441, z: -0.0000000084983185}
+      rotation: {x: 0.05184605, y: -0.018208414, z: -0.073887855, w: 0.9957515}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Manuka_hair_front_1.001_end_end
+      parentName: Manuka_hair_front_1.001_end
+      position: {x: -0, y: 0.038690314, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_front_2
+      parentName: Manuka_hair_root
+      position: {x: 0.03421522, y: 0.064368, z: 0.083199285}
+      rotation: {x: 0.97032595, y: 0.1652591, z: -0.029636584, w: -0.17400788}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999964}
+    - name: Manuka_hair_front_2_end
+      parentName: Manuka_hair_front_2
+      position: {x: 0.000000018425439, y: 0.042501505, z: 0.000000026077032}
+      rotation: {x: 0.100097746, y: -0.06101102, z: -0.055852745, w: 0.99153346}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_hair_front_2_end_end
+      parentName: Manuka_hair_front_2_end
+      position: {x: -0, y: 0.037500307, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_front_side_L
+      parentName: Manuka_hair_root
+      position: {x: -0.0830059, y: 0.05239004, z: 0.039675932}
+      rotation: {x: 0.48440847, y: 0.04692529, z: 0.87250143, w: -0.043448366}
+      scale: {x: 1.0000026, y: 1.0000001, z: 1.0000002}
+    - name: Manuka_hair_front_side_L.001
+      parentName: Manuka_hair_front_side_L
+      position: {x: -0, y: 0.033355296, z: 0.0000000037252903}
+      rotation: {x: 0.17206153, y: 0.1901373, z: 0.06921549, w: 0.96408087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_front_side_L.001_end
+      parentName: Manuka_hair_front_side_L.001
+      position: {x: 0.000000011175871, y: 0.030068556, z: -0.000000011175871}
+      rotation: {x: 0.09869718, y: 0.15821566, z: 0.09238015, w: 0.9781066}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Manuka_hair_front_side_L.001_end_end
+      parentName: Manuka_hair_front_side_L.001_end
+      position: {x: -0, y: 0.0329724, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_front_side_R
+      parentName: Manuka_hair_root
+      position: {x: 0.08300591, y: 0.05239004, z: 0.0396759}
+      rotation: {x: -0.48440823, y: 0.046925247, z: 0.8725016, w: 0.04344834}
+      scale: {x: 1.0000027, y: 1.0000001, z: 1.0000004}
+    - name: Manuka_hair_front_side_R.001
+      parentName: Manuka_hair_front_side_R
+      position: {x: 0.0000000037252903, y: 0.033355292, z: -0.0000000037252903}
+      rotation: {x: 0.17206156, y: -0.1901373, z: -0.06921545, w: 0.9640808}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Manuka_hair_front_side_R.001_end
+      parentName: Manuka_hair_front_side_R.001
+      position: {x: -0.000000026077032, y: 0.030068561, z: 0.000000022351742}
+      rotation: {x: 0.09869714, y: -0.15821566, z: -0.092380084, w: 0.9781066}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+    - name: Manuka_hair_front_side_R.001_end_end
+      parentName: Manuka_hair_front_side_R.001_end
+      position: {x: -0, y: 0.0329724, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_root_L
+      parentName: Manuka_hair_root
+      position: {x: -0.09174131, y: 0.06668506, z: -0.029741542}
+      rotation: {x: -0.4293244, y: 0.28038183, z: 0.55280656, w: 0.6568649}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Manuka_hair_ribbon_1_L
+      parentName: Manuka_hair_ribbon_root_L
+      position: {x: -0.005999255, y: 0.0016412626, z: 0.0022510956}
+      rotation: {x: -0.5225706, y: 0.39504734, z: 0.452146, w: 0.60532767}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Manuka_hair_ribbon_1_L.001
+      parentName: Manuka_hair_ribbon_1_L
+      position: {x: 0.000000060070306, y: 0.024519512, z: 0.000000049651135}
+      rotation: {x: 0.19347112, y: -0.00012812567, z: 0.005484526, w: 0.98109066}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Manuka_hair_ribbon_1_L.001_end
+      parentName: Manuka_hair_ribbon_1_L.001
+      position: {x: 0.000000049592927, y: 0.024377389, z: -0.000000044703484}
+      rotation: {x: 0.045903776, y: 0.000052491654, z: 0.0012994531, w: 0.99894506}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Manuka_hair_ribbon_1_L.001_end_end
+      parentName: Manuka_hair_ribbon_1_L.001_end
+      position: {x: -0, y: 0.027276086, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_2_L
+      parentName: Manuka_hair_ribbon_root_L
+      position: {x: -0.0118745575, y: -0.0024172452, z: -0.0067961216}
+      rotation: {x: -0.6398446, y: 0.2120691, z: 0.23748912, w: 0.69944584}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Manuka_hair_ribbon_2_L.001
+      parentName: Manuka_hair_ribbon_2_L
+      position: {x: 0.0000000018626451, y: 0.03369418, z: 0.0000000024447218}
+      rotation: {x: 0.02318042, y: 0.00054200384, z: -0.0014753512, w: 0.9997301}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Manuka_hair_ribbon_2_L.002
+      parentName: Manuka_hair_ribbon_2_L.001
+      position: {x: -0.000000005122274, y: 0.03417836, z: 0.000000034691766}
+      rotation: {x: 0.026663078, y: 0.0009066143, z: -0.0016583453, w: 0.9996427}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Manuka_hair_ribbon_2_L.002_end
+      parentName: Manuka_hair_ribbon_2_L.002
+      position: {x: -0.00000000919681, y: 0.03288563, z: -0.000000028318027}
+      rotation: {x: 0.0037928964, y: 0.00016965608, z: -0.00023201093, w: 0.9999928}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_hair_ribbon_2_L.002_end_end
+      parentName: Manuka_hair_ribbon_2_L.002_end
+      position: {x: -0, y: 0.033190724, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_3_L
+      parentName: Manuka_hair_ribbon_root_L
+      position: {x: 0.005885126, y: 0.004166959, z: -0.0024706135}
+      rotation: {x: -0.68430877, y: -0.15010731, z: -0.18473929, w: 0.6892465}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_hair_ribbon_3_L.001
+      parentName: Manuka_hair_ribbon_3_L
+      position: {x: -0.00000010058284, y: 0.024723575, z: -0.000000026077032}
+      rotation: {x: 0.12666824, y: 0.008457941, z: -0.03438306, w: 0.991313}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Manuka_hair_ribbon_3_L.001_end
+      parentName: Manuka_hair_ribbon_3_L.001
+      position: {x: -0.0000000949949, y: 0.024723573, z: -0.0000000060535967}
+      rotation: {x: 0.05940878, y: 0.0035048344, z: -0.015358987, w: 0.99810946}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_hair_ribbon_3_L.001_end_end
+      parentName: Manuka_hair_ribbon_3_L.001_end
+      position: {x: -0, y: 0.02861486, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_4_L
+      parentName: Manuka_hair_ribbon_root_L
+      position: {x: 0.0061490294, y: 0.0003085686, z: -0.012689968}
+      rotation: {x: -0.70484805, y: 0.013451602, z: 0.06644661, w: 0.7061113}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_4_L.001
+      parentName: Manuka_hair_ribbon_4_L
+      position: {x: 0.000000016763806, y: 0.033055983, z: -0.0000000018626451}
+      rotation: {x: 0.010332841, y: 0.013251977, z: -0.027020212, w: 0.99949366}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_hair_ribbon_4_L.002
+      parentName: Manuka_hair_ribbon_4_L.001
+      position: {x: -0.000000022351742, y: 0.032905053, z: -0.000000007450581}
+      rotation: {x: 0.039330136, y: -0.014355381, z: 0.021734575, w: 0.9988867}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_hair_ribbon_4_L.002_end
+      parentName: Manuka_hair_ribbon_4_L.002
+      position: {x: -0.000000018626451, y: 0.032916136, z: -0.000000009313226}
+      rotation: {x: -0.006506287, y: -0.002364941, z: 0.0027981352, w: 0.99997216}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_4_L.002_end_end
+      parentName: Manuka_hair_ribbon_4_L.002_end
+      position: {x: -0, y: 0.029994527, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_root_R
+      parentName: Manuka_hair_root
+      position: {x: 0.09174129, y: 0.06668506, z: -0.029741587}
+      rotation: {x: -0.42932448, y: -0.28038183, z: -0.5528064, w: 0.656865}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_hair_ribbon_1_R
+      parentName: Manuka_hair_ribbon_root_R
+      position: {x: 0.0059991805, y: 0.0016412716, z: 0.0022510868}
+      rotation: {x: -0.5225707, y: -0.39504725, z: -0.45214608, w: 0.6053276}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: Manuka_hair_ribbon_1_R.001
+      parentName: Manuka_hair_ribbon_1_R
+      position: {x: -0.000000056112185, y: 0.024519471, z: 0.00000000410364}
+      rotation: {x: 0.19347101, y: 0.00012815409, z: -0.0054845014, w: 0.98109066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_1_R.001_end
+      parentName: Manuka_hair_ribbon_1_R.001
+      position: {x: -0.0000000433065, y: 0.024377387, z: 0.000000013969839}
+      rotation: {x: 0.04590379, y: -0.00005250097, z: -0.0012994849, w: 0.99894506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_1_R.001_end_end
+      parentName: Manuka_hair_ribbon_1_R.001_end
+      position: {x: -0, y: 0.027276086, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_2_R
+      parentName: Manuka_hair_ribbon_root_R
+      position: {x: 0.0118745435, y: -0.002417228, z: -0.0067961314}
+      rotation: {x: -0.6398446, y: -0.21206906, z: -0.23748903, w: 0.6994459}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Manuka_hair_ribbon_2_R.001
+      parentName: Manuka_hair_ribbon_2_R
+      position: {x: -0.000000010244548, y: 0.03369397, z: -0.000000007566996}
+      rotation: {x: 0.023180436, y: -0.00054210005, z: 0.0014753763, w: 0.9997301}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: Manuka_hair_ribbon_2_R.002
+      parentName: Manuka_hair_ribbon_2_R.001
+      position: {x: -0.0000000013969839, y: 0.03417839, z: 0.000000025844201}
+      rotation: {x: 0.026663067, y: -0.00090661366, z: 0.0016583346, w: 0.9996427}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_hair_ribbon_2_R.002_end
+      parentName: Manuka_hair_ribbon_2_R.002
+      position: {x: -0.000000009895302, y: 0.032885537, z: -0.000000007566996}
+      rotation: {x: 0.0037928708, y: -0.0001696747, z: 0.00023201745, w: 0.9999928}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_hair_ribbon_2_R.002_end_end
+      parentName: Manuka_hair_ribbon_2_R.002_end
+      position: {x: -0, y: 0.033190724, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_3_R
+      parentName: Manuka_hair_ribbon_root_R
+      position: {x: -0.005885141, y: 0.00416698, z: -0.0024706228}
+      rotation: {x: -0.68430895, y: 0.15010726, z: 0.18473943, w: 0.68924636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_3_R.001
+      parentName: Manuka_hair_ribbon_3_R
+      position: {x: 0.000000048428774, y: 0.02472357, z: 0.0000000027939677}
+      rotation: {x: 0.12666824, y: -0.008457956, z: 0.03438301, w: 0.991313}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_3_R.001_end
+      parentName: Manuka_hair_ribbon_3_R.001
+      position: {x: -0.000000022351742, y: 0.024723513, z: -0.0000000069849193}
+      rotation: {x: 0.059408758, y: -0.0035048488, z: 0.015358954, w: 0.99810946}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_hair_ribbon_3_R.001_end_end
+      parentName: Manuka_hair_ribbon_3_R.001_end
+      position: {x: -0, y: 0.02861486, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_4_R
+      parentName: Manuka_hair_ribbon_root_R
+      position: {x: -0.0061490424, y: 0.0003085807, z: -0.012689978}
+      rotation: {x: -0.70484805, y: -0.013451657, z: -0.06644653, w: 0.7061113}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Manuka_hair_ribbon_4_R.001
+      parentName: Manuka_hair_ribbon_4_R
+      position: {x: -0.000000010244548, y: 0.033056095, z: -0.000000007450581}
+      rotation: {x: 0.010332849, y: -0.013251987, z: 0.027020235, w: 0.99949366}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_hair_ribbon_4_R.002
+      parentName: Manuka_hair_ribbon_4_R.001
+      position: {x: -0.000000033527613, y: 0.03290499, z: 0.000000004656613}
+      rotation: {x: 0.03933012, y: 0.0143553885, z: -0.02173457, w: 0.9988867}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Manuka_hair_ribbon_4_R.002_end
+      parentName: Manuka_hair_ribbon_4_R.002
+      position: {x: -0.00000003632158, y: 0.032916013, z: -0.000000013969839}
+      rotation: {x: -0.006506273, y: 0.0023649284, z: -0.0027981151, w: 0.99997216}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Manuka_hair_ribbon_4_R.002_end_end
+      parentName: Manuka_hair_ribbon_4_R.002_end
+      position: {x: -0, y: 0.029994527, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_side_L
+      parentName: Manuka_hair_root
+      position: {x: -0.07249446, y: 0.0023174742, z: 0.028973432}
+      rotation: {x: 0.11557843, y: 0.15291868, z: 0.9813044, w: -0.017295985}
+      scale: {x: 1, y: 1.0000001, z: 1.0000008}
+    - name: Manuka_hair_side_L.001
+      parentName: Manuka_hair_side_L
+      position: {x: 0.000000010360964, y: 0.03171793, z: -0.000000009313226}
+      rotation: {x: 0.031263933, y: -0.019961568, z: -0.07413136, w: 0.9965584}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Manuka_hair_side_L.002
+      parentName: Manuka_hair_side_L.001
+      position: {x: 0.0000000037252903, y: 0.034391932, z: 0.000000027939677}
+      rotation: {x: 0.07231769, y: 0.01641494, z: 0.06289132, w: 0.9952615}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_hair_side_L.003
+      parentName: Manuka_hair_side_L.002
+      position: {x: 0.0000000055879354, y: 0.04456395, z: 0.000000030733645}
+      rotation: {x: -0.0787444, y: 0.03476064, z: 0.3687031, w: 0.9255534}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Manuka_hair_side_L.003_end
+      parentName: Manuka_hair_side_L.003
+      position: {x: 0.0000000055879354, y: 0.047496088, z: 0.000000037252903}
+      rotation: {x: -0.06299805, y: -0.052197386, z: 0.231715, w: 0.96933734}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Manuka_hair_side_L.003_end_end
+      parentName: Manuka_hair_side_L.003_end
+      position: {x: -0, y: 0.042346623, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_side_R
+      parentName: Manuka_hair_root
+      position: {x: 0.07249448, y: 0.0023174742, z: 0.028973397}
+      rotation: {x: -0.115578346, y: 0.15291877, z: 0.9813044, w: 0.017295865}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000021}
+    - name: Manuka_hair_side_R.001
+      parentName: Manuka_hair_side_R
+      position: {x: 0.000000009429641, y: 0.03171795, z: 0.000000024214387}
+      rotation: {x: 0.03126376, y: 0.019961622, z: 0.07413144, w: 0.9965584}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999998}
+    - name: Manuka_hair_side_R.002
+      parentName: Manuka_hair_side_R.001
+      position: {x: 0.0000000121071935, y: 0.034391828, z: -0.000000044703484}
+      rotation: {x: 0.072317705, y: -0.016414922, z: -0.06289133, w: 0.9952615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_side_R.003
+      parentName: Manuka_hair_side_R.002
+      position: {x: 0.0000000055879354, y: 0.044564072, z: 0.000000029802322}
+      rotation: {x: -0.078744136, y: -0.034760814, z: -0.36870316, w: 0.9255534}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Manuka_hair_side_R.003_end
+      parentName: Manuka_hair_side_R.003
+      position: {x: 0.000000055879354, y: 0.047496192, z: -0.000000010244548}
+      rotation: {x: -0.06299796, y: 0.052197147, z: -0.23171495, w: 0.96933734}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_hair_side_R.003_end_end
+      parentName: Manuka_hair_side_R.003_end
+      position: {x: -0, y: 0.042346623, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_twin_L
+      parentName: Manuka_hair_root
+      position: {x: -0.093024224, y: 0.080092646, z: -0.03141253}
+      rotation: {x: -0.6560561, y: 0.12139473, z: 0.7050468, w: 0.24033894}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_hair_twin_L.001
+      parentName: Manuka_hair_twin_L
+      position: {x: -0.000000013038516, y: 0.039652877, z: -0.00000006193295}
+      rotation: {x: -0.22869477, y: 0.0073479037, z: 0.03136703, w: 0.972965}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Manuka_hair_twin_L.002
+      parentName: Manuka_hair_twin_L.001
+      position: {x: 0.000000013271347, y: 0.04856243, z: 0.00000001618173}
+      rotation: {x: -0.049355898, y: 0.005202934, z: -0.0464041, w: 0.9976891}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Manuka_hair_twin_L.003
+      parentName: Manuka_hair_twin_L.002
+      position: {x: -0.00000000919681, y: 0.057160657, z: -0.0000000026484486}
+      rotation: {x: 0.0013749822, y: 0.007713497, z: -0.032920253, w: 0.99942726}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Manuka_hair_twin_L.004
+      parentName: Manuka_hair_twin_L.003
+      position: {x: -0.000000011350494, y: 0.062672265, z: 0.0000000052386895}
+      rotation: {x: 0.010916342, y: 0.012300205, z: -0.040840086, w: 0.99903035}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_hair_twin_L.005
+      parentName: Manuka_hair_twin_L.004
+      position: {x: -0.00000003213063, y: 0.07023146, z: -0.0000000041909516}
+      rotation: {x: 0.0514294, y: 0.0047164382, z: -0.014697384, w: 0.9985574}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Manuka_hair_twin_L.006
+      parentName: Manuka_hair_twin_L.005
+      position: {x: 0.000000014901161, y: 0.076977566, z: -0.000000014901161}
+      rotation: {x: 0.09717017, y: -0.00936539, z: 0.036990147, w: 0.9945361}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_twin_L.007
+      parentName: Manuka_hair_twin_L.006
+      position: {x: 0.0000000022992026, y: 0.07429373, z: 0}
+      rotation: {x: 0.2722559, y: 0.012662433, z: 0.24979876, w: 0.9291485}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Manuka_hair_twin_L.008
+      parentName: Manuka_hair_twin_L.007
+      position: {x: -0.000000007450581, y: 0.06981334, z: -0.000000016763806}
+      rotation: {x: 0.29752323, y: 0.17709284, z: 0.2711334, w: 0.89811176}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_hair_twin_L.008_end
+      parentName: Manuka_hair_twin_L.008
+      position: {x: -0.000000022351742, y: 0.069718614, z: 0.00000008568168}
+      rotation: {x: 0.07978184, y: 0.15541722, z: 0.11691228, w: 0.9776563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_twin_L.008_end_end
+      parentName: Manuka_hair_twin_L.008_end
+      position: {x: -0, y: 0.0635249, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_twin_R
+      parentName: Manuka_hair_root
+      position: {x: 0.09302421, y: 0.080092646, z: -0.031412575}
+      rotation: {x: 0.6560562, y: 0.121394776, z: 0.70504665, w: -0.24033907}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Manuka_hair_twin_R.001
+      parentName: Manuka_hair_twin_R
+      position: {x: -0.0000000030267984, y: 0.03965299, z: -0.00000008754432}
+      rotation: {x: -0.22869478, y: -0.0073478813, z: -0.031366978, w: 0.972965}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Manuka_hair_twin_R.002
+      parentName: Manuka_hair_twin_R.001
+      position: {x: -0.00000002188608, y: 0.048562437, z: 0.0000000016298145}
+      rotation: {x: -0.049355906, y: -0.0052029258, z: 0.04640408, w: 0.9976891}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Manuka_hair_twin_R.003
+      parentName: Manuka_hair_twin_R.002
+      position: {x: 0.00000003213063, y: 0.057160664, z: 0.0000000016880222}
+      rotation: {x: 0.00137498, y: -0.007713493, z: 0.032920223, w: 0.99942726}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Manuka_hair_twin_R.004
+      parentName: Manuka_hair_twin_R.003
+      position: {x: 0.0000000041618478, y: 0.06267221, z: 8.440111e-10}
+      rotation: {x: 0.01091633, y: -0.012300203, z: 0.040840067, w: 0.99903035}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_hair_twin_R.005
+      parentName: Manuka_hair_twin_R.004
+      position: {x: 0.000000016530976, y: 0.07023145, z: 0}
+      rotation: {x: 0.051429376, y: -0.004716434, z: 0.014697333, w: 0.9985574}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Manuka_hair_twin_R.006
+      parentName: Manuka_hair_twin_R.005
+      position: {x: -0.000000009080395, y: 0.076977536, z: -0.000000020314474}
+      rotation: {x: 0.09717013, y: 0.009365391, z: -0.03699009, w: 0.9945361}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Manuka_hair_twin_R.007
+      parentName: Manuka_hair_twin_R.006
+      position: {x: -0.00000001603621, y: 0.07429372, z: 0.000000020489097}
+      rotation: {x: 0.27225593, y: -0.012662396, z: -0.24979872, w: 0.92914855}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Manuka_hair_twin_R.008
+      parentName: Manuka_hair_twin_R.007
+      position: {x: 0.0000000037252903, y: 0.06981336, z: -0.000000004656613}
+      rotation: {x: 0.2975233, y: -0.17709282, z: -0.2711333, w: 0.8981118}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: Manuka_hair_twin_R.008_end
+      parentName: Manuka_hair_twin_R.008
+      position: {x: 0.000000022351742, y: 0.069718584, z: -0.000000018626451}
+      rotation: {x: 0.0797818, y: -0.15541714, z: -0.116912365, w: 0.97765636}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_hair_twin_R.008_end_end
+      parentName: Manuka_hair_twin_R.008_end
+      position: {x: -0, y: 0.0635249, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightEye
+      parentName: Head
+      position: {x: 0.030189155, y: 0.041880526, z: 0.026592825}
+      rotation: {x: -0.00000065922706, y: -3.5434738e-13, z: 2.352985e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightEye_end
+      parentName: RightEye
+      position: {x: -0, y: 0.052271724, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tang
+      parentName: Head
+      position: {x: 1.4181645e-14, y: -0.005651041, z: 0.060875703}
+      rotation: {x: 0.93797797, y: 8.2189145e-14, z: -3.0223454e-14, w: 0.34669486}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: Tang.001
+      parentName: Tang
+      position: {x: 4.3733742e-23, y: 0.0069244914, z: -0.000000029802322}
+      rotation: {x: 0.23022027, y: -5.8239895e-19, z: 2.3725096e-19, w: 0.9731386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tang.001_end
+      parentName: Tang.001
+      position: {x: -1.2149215e-23, y: 0.0066949334, z: 0.000000007450581}
+      rotation: {x: 0.09463351, y: 0.00000014440012, z: -0.000000008835971, w: 0.9955122}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Tang.001_end_end
+      parentName: Tang.001_end
+      position: {x: -0, y: 0.007764303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder_L
+      parentName: Chest
+      position: {x: -0.039076418, y: 0.1265111, z: -0.0043043178}
+      rotation: {x: -0.42778844, y: 0.42778832, z: 0.5630251, w: 0.5630249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm_L
+      parentName: Shoulder_L
+      position: {x: 1.1479875e-11, y: 0.03675571, z: 6.9329853e-10}
+      rotation: {x: 0.0000006647138, y: -0.00000066099904, z: -0.009714613, w: 0.99995285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_L
+      parentName: UpperArm_L
+      position: {x: -3.3912784e-10, y: 0.17861225, z: 0.000000012078564}
+      rotation: {x: -0.0003509265, y: 0.00033589528, z: 0.031015111, w: 0.9995188}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Hand_L
+      parentName: LowerArm_L
+      position: {x: 4.656613e-10, y: 0.18335117, z: -0.00000010569181}
+      rotation: {x: 0.00034700637, y: -0.00033860732, z: -0.021303663, w: 0.99977297}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: IndexProximal_L
+      parentName: Hand_L
+      position: {x: -0.018184049, y: 0.059868723, z: 0.0017708535}
+      rotation: {x: -0.02498262, y: -0.033238083, z: 0.0033754678, w: 0.99912953}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: IndexIntermediate_L
+      parentName: IndexProximal_L
+      position: {x: 0.0000000018626451, y: 0.021937171, z: 0.00000006193295}
+      rotation: {x: 0.012618802, y: -0.012529774, z: -0.0047945785, w: 0.9998304}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: IndexDistal_L
+      parentName: IndexIntermediate_L
+      position: {x: 0.000000004656613, y: 0.014565021, z: 0.000000019557774}
+      rotation: {x: 0.024810784, y: -0.023606682, z: 0.0021973683, w: 0.999411}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IndexDistal_L_end
+      parentName: IndexDistal_L
+      position: {x: -0, y: 0.013842008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LittleProximal_L
+      parentName: Hand_L
+      position: {x: 0.015355414, y: 0.05433193, z: -0.0019774432}
+      rotation: {x: -0.042449564, y: 0.21916178, z: 0.017016863, w: 0.97461617}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: LittleIntermediate_L
+      parentName: LittleProximal_L
+      position: {x: 0.000000034458935, y: 0.017650688, z: -0.00000006053597}
+      rotation: {x: 0.02179165, y: -0.033662185, z: 0.030492285, w: 0.9987303}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: LittleDistal_L
+      parentName: LittleIntermediate_L
+      position: {x: -0.000000026077032, y: 0.012434278, z: -0.000000058673322}
+      rotation: {x: 0.024116516, y: -0.032916714, z: 0.02265776, w: 0.9989102}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: LittleDistal_L_end
+      parentName: LittleDistal_L
+      position: {x: -0, y: 0.013343919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleProximal_L
+      parentName: Hand_L
+      position: {x: -0.006349609, y: 0.05966285, z: 0.004727006}
+      rotation: {x: -0.03583273, y: 0.054714642, z: 0.015831316, w: 0.9977333}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: MiddleIntermediate_L
+      parentName: MiddleProximal_L
+      position: {x: 0.0000000016298145, y: 0.025156492, z: -0.00000016362173}
+      rotation: {x: 0.02158346, y: -0.022454888, z: 0.0056367456, w: 0.99949896}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: MiddleDistal_L
+      parentName: MiddleIntermediate_L
+      position: {x: 0.0000000027939677, y: 0.016467214, z: -0.000000045838533}
+      rotation: {x: 0.0035560522, y: -0.003603695, z: -0.000548938, w: 0.99998707}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: MiddleDistal_L_end
+      parentName: MiddleDistal_L
+      position: {x: -0, y: 0.01660193, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingProximal_L
+      parentName: Hand_L
+      position: {x: 0.004353932, y: 0.05764106, z: 0.0025534632}
+      rotation: {x: -0.037742205, y: 0.098692186, z: 0.017842961, w: 0.99424195}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: RingIntermediate_L
+      parentName: RingProximal_L
+      position: {x: -0.000000023283064, y: 0.022696378, z: -0.000000049476512}
+      rotation: {x: 0.028764341, y: -0.03624611, z: 0.029833298, w: 0.99848324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingDistal_L
+      parentName: RingIntermediate_L
+      position: {x: -0.0000000060535967, y: 0.015525296, z: 0.00000002240995}
+      rotation: {x: 0.017494185, y: -0.018842101, z: 0.0020651077, w: 0.9996673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingDistal_L_end
+      parentName: RingDistal_L
+      position: {x: -0, y: 0.015464897, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ThumbProximal_L
+      parentName: Hand_L
+      position: {x: -0.015829766, y: 0.017382981, z: -0.0074236398}
+      rotation: {x: -0.3762499, y: 0.9149699, z: -0.08832001, w: -0.11604209}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: ThumbIntermediate_L
+      parentName: ThumbProximal_L
+      position: {x: 0.00000002863817, y: 0.021940757, z: -0.00000008265488}
+      rotation: {x: -0.010607761, y: -0.037548974, z: 0.034484558, w: 0.9986433}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: ThumbDistal_L
+      parentName: ThumbIntermediate_L
+      position: {x: 0.000000013154931, y: 0.017580021, z: -0.00000006053597}
+      rotation: {x: -0.012908294, y: 0.00094056287, z: -0.0027735536, w: 0.99991244}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: ThumbDistal_L_end
+      parentName: ThumbDistal_L
+      position: {x: -0, y: 0.015215091, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_twist_L
+      parentName: LowerArm_L
+      position: {x: 4.656613e-10, y: 0.18335117, z: -0.00000010569181}
+      rotation: {x: 0.0003542846, y: -0.000000017230402, z: -0.021303633, w: 0.999773}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: LowerArm_twist_L_end
+      parentName: LowerArm_twist_L
+      position: {x: -0, y: 0.02227518, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_L
+      parentName: UpperArm_L
+      position: {x: -0.0062096496, y: 0.05603158, z: -0.0029440473}
+      rotation: {x: 0.0000017730717, y: -0.00000006666571, z: -0.0061495653, w: 0.9999811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_1_L
+      parentName: Manuka_shirt_root_L
+      position: {x: 0.000000044986336, y: 0.022398856, z: 0.03205224}
+      rotation: {x: -0.0066748764, y: 0.99623585, z: 0.08545503, w: -0.012924336}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Manuka_shirt_root_1_L_end
+      parentName: Manuka_shirt_root_1_L
+      position: {x: 0.000000002561137, y: 0.048126005, z: 0.00000009703581}
+      rotation: {x: 0.0000012029559, y: -0.00000003859168, z: 0.000000027823262, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_shirt_root_1_L_end_end
+      parentName: Manuka_shirt_root_1_L_end
+      position: {x: -0, y: 0.048125975, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_2_L
+      parentName: Manuka_shirt_root_L
+      position: {x: -0.033097986, y: 0.021348188, z: 0.000000014626284}
+      rotation: {x: -0.06636703, y: 0.70494926, z: 0.066518605, w: 0.70300585}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_shirt_root_2_L_end
+      parentName: Manuka_shirt_root_2_L
+      position: {x: 0.00000003877176, y: 0.048061848, z: -9.313226e-10}
+      rotation: {x: 0.000000039443762, y: 0.000002161306, z: -0.0000012429346, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_2_L_end_end
+      parentName: Manuka_shirt_root_2_L_end
+      position: {x: -0, y: 0.04806183, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_3_L
+      parentName: Manuka_shirt_root_L
+      position: {x: -0.00000004552612, y: 0.02239854, z: -0.032408394}
+      rotation: {x: -0.08592053, y: -0.012858614, z: 0.006674862, w: 0.9961967}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_shirt_root_3_L_end
+      parentName: Manuka_shirt_root_3_L
+      position: {x: -0.0000000018626451, y: 0.04812985, z: 0.000000045893103}
+      rotation: {x: -0.0000005883194, y: -0.000000027241184, z: 0.000000016647391, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_shirt_root_3_L_end_end
+      parentName: Manuka_shirt_root_3_L_end
+      position: {x: -0, y: 0.04812987, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_4_L
+      parentName: Manuka_shirt_root_L
+      position: {x: 0.029934304, y: 0.023348795, z: -0.00000008180071}
+      rotation: {x: -0.052186426, y: -0.7061909, z: -0.052366868, w: 0.70415115}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: Manuka_shirt_root_4_L_end
+      parentName: Manuka_shirt_root_4_L
+      position: {x: 0.000000023689608, y: 0.048157137, z: 0.0000000018626451}
+      rotation: {x: -0.0000000037489087, y: 0.00000005641209, z: -0.0000000042973625, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_4_L_end_end
+      parentName: Manuka_shirt_root_4_L_end
+      position: {x: -0, y: 0.04815715, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm_twist_L
+      parentName: UpperArm_L
+      position: {x: -3.3912784e-10, y: 0.17861225, z: 0.000000012078564}
+      rotation: {x: -0.00000064136884, y: -0.000000052183058, z: 0.009714438, w: 0.99995285}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1.0000001}
+    - name: UpperArm_twist_L_end
+      parentName: UpperArm_twist_L
+      position: {x: -0, y: 0.07933575, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder_R
+      parentName: Chest
+      position: {x: 0.039076418, y: 0.1265111, z: -0.0043043178}
+      rotation: {x: -0.42778844, y: -0.42778832, z: -0.5630251, w: 0.5630249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm_R
+      parentName: Shoulder_R
+      position: {x: -1.1480208e-11, y: 0.03675571, z: 6.9329875e-10}
+      rotation: {x: 0.0000006647138, y: 0.00000066099904, z: 0.009714613, w: 0.99995285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_R
+      parentName: UpperArm_R
+      position: {x: 3.3912784e-10, y: 0.17861225, z: 0.000000012078564}
+      rotation: {x: -0.0003509265, y: -0.00033589528, z: -0.031015111, w: 0.9995188}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Hand_R
+      parentName: LowerArm_R
+      position: {x: -5.2386895e-10, y: 0.1833512, z: -0.00000010569181}
+      rotation: {x: 0.00034700634, y: 0.00033860726, z: 0.02130366, w: 0.99977297}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: IndexProximal_R
+      parentName: Hand_R
+      position: {x: 0.018184049, y: 0.059868723, z: 0.0017708535}
+      rotation: {x: -0.02498062, y: 0.033237975, z: -0.0033762685, w: 0.99912953}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: IndexIntermediate_R
+      parentName: IndexProximal_R
+      position: {x: -0.0000000018626451, y: 0.021937171, z: 0.00000005448237}
+      rotation: {x: 0.012618798, y: 0.012529772, z: 0.004794577, w: 0.9998304}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: IndexDistal_R
+      parentName: IndexIntermediate_R
+      position: {x: -0.000000004656613, y: 0.014565013, z: -0.00000009976793}
+      rotation: {x: 0.024810784, y: 0.023606678, z: -0.0021973678, w: 0.999411}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IndexDistal_R_end
+      parentName: IndexDistal_R
+      position: {x: -0, y: 0.013842008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LittleProximal_R
+      parentName: Hand_R
+      position: {x: -0.015355414, y: 0.05433193, z: -0.0019774432}
+      rotation: {x: -0.042452574, y: -0.21916158, z: -0.017015222, w: 0.9746161}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: LittleIntermediate_R
+      parentName: LittleProximal_R
+      position: {x: -0.000000006519258, y: 0.017650673, z: -9.313226e-10}
+      rotation: {x: 0.02179165, y: 0.033662193, z: -0.030492285, w: 0.9987303}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: LittleDistal_R
+      parentName: LittleIntermediate_R
+      position: {x: -0.000000008381903, y: 0.012434299, z: -0.00000006239861}
+      rotation: {x: 0.024116516, y: 0.032916706, z: -0.022657756, w: 0.9989102}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: LittleDistal_R_end
+      parentName: LittleDistal_R
+      position: {x: -0, y: 0.013343919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddleProximal_R
+      parentName: Hand_R
+      position: {x: 0.006349609, y: 0.05966285, z: 0.004727006}
+      rotation: {x: -0.035832584, y: -0.054714736, z: -0.015831327, w: 0.9977333}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: MiddleIntermediate_R
+      parentName: MiddleProximal_R
+      position: {x: -0.0000000013969839, y: 0.025156485, z: -0.000000044412445}
+      rotation: {x: 0.021583458, y: 0.022454888, z: -0.0056367465, w: 0.99949896}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: MiddleDistal_R
+      parentName: MiddleIntermediate_R
+      position: {x: 9.313226e-10, y: 0.016467176, z: -0.000000042113243}
+      rotation: {x: 0.003556055, y: 0.0036036987, z: 0.0005489377, w: 0.99998707}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: MiddleDistal_R_end
+      parentName: MiddleDistal_R
+      position: {x: -0, y: 0.01660193, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingProximal_R
+      parentName: Hand_R
+      position: {x: -0.004353932, y: 0.05764106, z: 0.0025534632}
+      rotation: {x: -0.037742205, y: -0.098692186, z: -0.017842958, w: 0.99424195}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: RingIntermediate_R
+      parentName: RingProximal_R
+      position: {x: 0.00000002188608, y: 0.022696393, z: -0.00000010919757}
+      rotation: {x: 0.028766887, y: 0.036246125, z: -0.029835671, w: 0.9984831}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingDistal_R
+      parentName: RingIntermediate_R
+      position: {x: 4.656613e-10, y: 0.015525326, z: 0.00000001868466}
+      rotation: {x: 0.017494185, y: 0.0188421, z: -0.0020651107, w: 0.9996673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RingDistal_R_end
+      parentName: RingDistal_R
+      position: {x: -0, y: 0.015464897, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ThumbProximal_R
+      parentName: Hand_R
+      position: {x: 0.015829766, y: 0.017382981, z: -0.0074236398}
+      rotation: {x: 0.3762499, y: 0.9149699, z: -0.08832001, w: 0.11604209}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: ThumbIntermediate_R
+      parentName: ThumbProximal_R
+      position: {x: -0.0000000069849193, y: 0.021940742, z: -0.000000023050234}
+      rotation: {x: -0.010609912, y: 0.037548598, z: -0.034482833, w: 0.99864334}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: ThumbDistal_R
+      parentName: ThumbIntermediate_R
+      position: {x: 0.000000011059456, y: 0.017580051, z: -0.000000038882717}
+      rotation: {x: -0.012908294, y: -0.00094057043, z: 0.0027735466, w: 0.99991244}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: ThumbDistal_R_end
+      parentName: ThumbDistal_R
+      position: {x: -0, y: 0.015215091, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm_twist_R
+      parentName: LowerArm_R
+      position: {x: -5.2386895e-10, y: 0.1833512, z: -0.00000010569181}
+      rotation: {x: 0.0003542198, y: 0.0000000012747554, z: 0.021303542, w: 0.999773}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: LowerArm_twist_R_end
+      parentName: LowerArm_twist_R
+      position: {x: -0, y: 0.02227518, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_R
+      parentName: UpperArm_R
+      position: {x: 0.0062096496, y: 0.05603158, z: -0.0029440473}
+      rotation: {x: 0.0000017730717, y: 0.00000006666571, z: 0.0061495653, w: 0.9999811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_1_R
+      parentName: Manuka_shirt_root_R
+      position: {x: -0.000000044986336, y: 0.022398856, z: 0.03205224}
+      rotation: {x: 0.0066748764, y: 0.99623585, z: 0.08545503, w: 0.012924336}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Manuka_shirt_root_1_R_end
+      parentName: Manuka_shirt_root_1_R
+      position: {x: -0.000000002561137, y: 0.048126005, z: 0.00000009703581}
+      rotation: {x: 0.0000012029559, y: 0.00000003859168, z: -0.000000027823262, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_shirt_root_1_R_end_end
+      parentName: Manuka_shirt_root_1_R_end
+      position: {x: -0, y: 0.048125975, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_2_R
+      parentName: Manuka_shirt_root_R
+      position: {x: 0.033097986, y: 0.021348188, z: 0.000000014626284}
+      rotation: {x: -0.06636703, y: -0.70494926, z: -0.066518605, w: 0.70300585}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_shirt_root_2_R_end
+      parentName: Manuka_shirt_root_2_R
+      position: {x: -0.00000003877176, y: 0.048061848, z: -9.313226e-10}
+      rotation: {x: 0.000000039443762, y: -0.000002161306, z: 0.0000012429346, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_2_R_end_end
+      parentName: Manuka_shirt_root_2_R_end
+      position: {x: -0, y: 0.04806183, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_3_R
+      parentName: Manuka_shirt_root_R
+      position: {x: 0.00000004552612, y: 0.02239854, z: -0.032408394}
+      rotation: {x: -0.08592053, y: 0.012858614, z: -0.006674862, w: 0.9961967}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_shirt_root_3_R_end
+      parentName: Manuka_shirt_root_3_R
+      position: {x: 0.0000000018626451, y: 0.04812985, z: 0.000000045893103}
+      rotation: {x: -0.0000005883194, y: 0.000000027241184, z: -0.000000016647391, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_shirt_root_3_R_end_end
+      parentName: Manuka_shirt_root_3_R_end
+      position: {x: -0, y: 0.04812987, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_4_R
+      parentName: Manuka_shirt_root_R
+      position: {x: -0.029934304, y: 0.023348795, z: -0.00000008180071}
+      rotation: {x: -0.052186426, y: 0.7061909, z: 0.052366868, w: 0.70415115}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: Manuka_shirt_root_4_R_end
+      parentName: Manuka_shirt_root_4_R
+      position: {x: -0.000000023689608, y: 0.048157137, z: 0.0000000018626451}
+      rotation: {x: -0.0000000037489087, y: -0.00000005641209, z: 0.0000000042973625, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shirt_root_4_R_end_end
+      parentName: Manuka_shirt_root_4_R_end
+      position: {x: -0, y: 0.04815715, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm_twist_R
+      parentName: UpperArm_R
+      position: {x: 3.3912784e-10, y: 0.17861225, z: 0.000000012078564}
+      rotation: {x: -0.00000066204115, y: 0.000000064639266, z: -0.009714776, w: 0.99995285}
+      scale: {x: 0.99999964, y: 0.99999964, z: 0.9999996}
+    - name: UpperArm_twist_R_end
+      parentName: UpperArm_twist_R
+      position: {x: -0, y: 0.07933575, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_root
+      parentName: Spine
+      position: {x: -0, y: 0.026944797, z: 0.0686794}
+      rotation: {x: 0.7230203, y: -0.00000032941222, z: -0.00000034476332, w: 0.6908268}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_1_L
+      parentName: Manuka_apron_ribbon_root
+      position: {x: -0.007349663, y: -0.000671871, z: 0.0014086831}
+      rotation: {x: 0.3392986, y: 0.20547383, z: 0.5439778, w: 0.73942214}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Manuka_apron_ribbon_1_L.001
+      parentName: Manuka_apron_ribbon_1_L
+      position: {x: 0.0000000027939713, y: 0.033530302, z: -0.0000000055879354}
+      rotation: {x: 0.18974847, y: -0.15143807, z: -0.10876767, w: 0.9639666}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Manuka_apron_ribbon_1_L.001_end
+      parentName: Manuka_apron_ribbon_1_L.001
+      position: {x: 0.000000009313229, y: 0.03687793, z: -0.0000000037252903}
+      rotation: {x: 0.048196822, y: -0.17990164, z: -0.07576132, w: 0.97957784}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Manuka_apron_ribbon_1_L.001_end_end
+      parentName: Manuka_apron_ribbon_1_L.001_end
+      position: {x: -0, y: 0.035852473, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_1_R
+      parentName: Manuka_apron_ribbon_root
+      position: {x: 0.0073496657, y: -0.000671871, z: 0.0014086692}
+      rotation: {x: 0.3392982, y: -0.20547304, z: -0.54397815, w: 0.7394223}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_1_R.001
+      parentName: Manuka_apron_ribbon_1_R
+      position: {x: 0.000000007450577, y: 0.033530317, z: -0.000000020489097}
+      rotation: {x: 0.1897484, y: 0.15143803, z: 0.10876767, w: 0.96396667}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Manuka_apron_ribbon_1_R.001_end
+      parentName: Manuka_apron_ribbon_1_R.001
+      position: {x: 0.0000000018626416, y: 0.036877893, z: 0.0000000037252903}
+      rotation: {x: 0.048196845, y: 0.1799017, z: 0.07576133, w: 0.97957784}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_1_R.001_end_end
+      parentName: Manuka_apron_ribbon_1_R.001_end
+      position: {x: -0, y: 0.035852473, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_2_L
+      parentName: Manuka_apron_ribbon_root
+      position: {x: -0.009558742, y: -0.00044961646, z: 0.0097414795}
+      rotation: {x: 0.5712, y: 0.18740515, z: 0.2784513, w: 0.74904925}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_apron_ribbon_2_L.001
+      parentName: Manuka_apron_ribbon_2_L
+      position: {x: -0.000000012107201, y: 0.0327831, z: 0.000000018626451}
+      rotation: {x: 0.0193134, y: -0.11807011, z: -0.041627016, w: 0.9919444}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Manuka_apron_ribbon_2_L.002
+      parentName: Manuka_apron_ribbon_2_L.001
+      position: {x: 0.0000000055879346, y: 0.036209453, z: -0.000000006519258}
+      rotation: {x: -0.0039555985, y: -0.05156644, z: -0.018127171, w: 0.9984972}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_apron_ribbon_2_L.003
+      parentName: Manuka_apron_ribbon_2_L.002
+      position: {x: -0.000000004656613, y: 0.037149798, z: 0.000000013504177}
+      rotation: {x: 0.0004960629, y: -0.08101657, z: -0.028031249, w: 0.9963184}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_apron_ribbon_2_L.003_end
+      parentName: Manuka_apron_ribbon_2_L.003
+      position: {x: -5.820766e-10, y: 0.04056273, z: -0.000000012340024}
+      rotation: {x: -0.008637472, y: -0.05654895, z: -0.025565283, w: 0.9980351}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Manuka_apron_ribbon_2_L.003_end_end
+      parentName: Manuka_apron_ribbon_2_L.003_end
+      position: {x: -0, y: 0.052299995, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_2_R
+      parentName: Manuka_apron_ribbon_root
+      position: {x: 0.009558761, y: -0.0004496239, z: 0.009741462}
+      rotation: {x: 0.57119983, y: -0.18740447, z: -0.2784519, w: 0.7490493}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Manuka_apron_ribbon_2_R.001
+      parentName: Manuka_apron_ribbon_2_R
+      position: {x: -9.313297e-10, y: 0.03278302, z: 0.000000026077032}
+      rotation: {x: 0.019313416, y: 0.11807012, z: 0.041627005, w: 0.9919444}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Manuka_apron_ribbon_2_R.002
+      parentName: Manuka_apron_ribbon_2_R.001
+      position: {x: 0.0000000018626451, y: 0.03620949, z: 0}
+      rotation: {x: -0.003955594, y: 0.051566433, z: 0.018127182, w: 0.9984972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_2_R.003
+      parentName: Manuka_apron_ribbon_2_R.002
+      position: {x: -0.0000000055879354, y: 0.03714984, z: -0.0000000027939677}
+      rotation: {x: 0.0004960409, y: 0.08101661, z: 0.028031243, w: 0.9963184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_apron_ribbon_2_R.003_end
+      parentName: Manuka_apron_ribbon_2_R.003
+      position: {x: 0.0000000011641532, y: 0.04056277, z: -0.000000005355105}
+      rotation: {x: -0.00863747, y: 0.056548964, z: 0.02556528, w: 0.9980351}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_apron_ribbon_2_R.003_end_end
+      parentName: Manuka_apron_ribbon_2_R.003_end
+      position: {x: -0, y: 0.052299995, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg_L
+      parentName: Hips
+      position: {x: -0.055199455, y: -0.070530005, z: -0.011516519}
+      rotation: {x: 0.9999867, y: 6.1443867e-10, z: -0.000000119207684, w: -0.0051543047}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: LowerLeg_L
+      parentName: UpperLeg_L
+      position: {x: -0.000000003147135, y: 0.2834811, z: 0.00000000151904}
+      rotation: {x: 0.027983354, y: 0.0000005999008, z: -0.00000048905537, w: 0.9996084}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Foot_L
+      parentName: LowerLeg_L
+      position: {x: 0.0000000013070847, y: 0.3359602, z: 0.0000000015340547}
+      rotation: {x: -0.5327852, y: -0.00000066101404, z: 0.0000001734758, w: 0.84625053}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Toe_L
+      parentName: Foot_L
+      position: {x: 0.0000000037252066, y: 0.093355715, z: 5.451195e-14}
+      rotation: {x: -0.23623875, y: 5.31442e-13, z: 9.995453e-14, w: 0.97169507}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Toe_L_end
+      parentName: Toe_L
+      position: {x: -0, y: 0.10918189, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shoes_ribbon_L
+      parentName: LowerLeg_L
+      position: {x: 0.005620453, y: 0.30601513, z: -0.029798988}
+      rotation: {x: -0.26474935, y: -0.08407832, z: 0.01595612, w: 0.9605124}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Manuka_shoes_ribbon_L_end
+      parentName: Manuka_shoes_ribbon_L
+      position: {x: -0.0000000041909516, y: 0.031295355, z: 0}
+      rotation: {x: -0.06022061, y: 0.00000014834953, z: -0.00000012175857, w: 0.9981851}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shoes_ribbon_L_end_end
+      parentName: Manuka_shoes_ribbon_L_end
+      position: {x: -0, y: 0.02820428, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_pants_ribbon_L
+      parentName: UpperLeg_L
+      position: {x: -0.09769878, y: 0.061028216, z: -0.020443894}
+      rotation: {x: 0.0058391364, y: -0.708706, z: 0.0063750246, w: 0.70545095}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Manuka_pants_ribbon_L_end
+      parentName: Manuka_pants_ribbon_L
+      position: {x: 6.9849193e-10, y: 0.055844396, z: -0.000000021464075}
+      rotation: {x: 0.067051925, y: 0.000013597892, z: -0.000303504, w: 0.99774945}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: Manuka_pants_ribbon_L_end_end
+      parentName: Manuka_pants_ribbon_L_end
+      position: {x: -0, y: 0.055844385, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg_R
+      parentName: Hips
+      position: {x: 0.055199455, y: -0.070530005, z: -0.011516519}
+      rotation: {x: 0.9999867, y: -6.1443867e-10, z: 0.000000119207684, w: -0.0051543047}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: LowerLeg_R
+      parentName: UpperLeg_R
+      position: {x: 0.000000003147135, y: 0.2834811, z: 0.00000000151904}
+      rotation: {x: 0.027983354, y: -0.0000005999008, z: 0.00000048905537, w: 0.9996084}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Foot_R
+      parentName: LowerLeg_R
+      position: {x: -0.0000000013070847, y: 0.3359602, z: 0.0000000015340547}
+      rotation: {x: -0.5327852, y: 0.00000066101404, z: -0.0000001734758, w: 0.84625053}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Toe_R
+      parentName: Foot_R
+      position: {x: -0.0000000037252066, y: 0.093355715, z: 5.451195e-14}
+      rotation: {x: -0.23623875, y: -5.31442e-13, z: -9.995453e-14, w: 0.97169507}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Toe_R_end
+      parentName: Toe_R
+      position: {x: -0, y: 0.10918189, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shoes_ribbon_R
+      parentName: LowerLeg_R
+      position: {x: -0.005620453, y: 0.30601513, z: -0.029798988}
+      rotation: {x: -0.26474935, y: 0.08407832, z: -0.01595612, w: 0.9605124}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Manuka_shoes_ribbon_R_end
+      parentName: Manuka_shoes_ribbon_R
+      position: {x: 0.0000000041909516, y: 0.031295355, z: 0}
+      rotation: {x: -0.06022061, y: -0.00000014834953, z: 0.00000012175857, w: 0.9981851}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_shoes_ribbon_R_end_end
+      parentName: Manuka_shoes_ribbon_R_end
+      position: {x: -0, y: 0.02820428, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_pants_ribbon_R
+      parentName: UpperLeg_R
+      position: {x: 0.09769878, y: 0.061028216, z: -0.020443894}
+      rotation: {x: 0.00580951, y: 0.7054141, z: -0.006402258, w: 0.7087427}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_pants_ribbon_R_end
+      parentName: Manuka_pants_ribbon_R
+      position: {x: -0.0000000016298145, y: 0.055844396, z: 0.000000011117663}
+      rotation: {x: 0.06705186, y: 0.000014233229, z: -0.00031895633, w: 0.99774945}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Manuka_pants_ribbon_R_end_end
+      parentName: Manuka_pants_ribbon_R_end
+      position: {x: -0, y: 0.055844385, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_atama
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_body
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_costume_apron
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_costume_apron_nameplate
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_costume_bracelet
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_costume_shirt
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_costume_shoes
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_costume_shorts
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_costume_tie
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_bun
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_front
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_front_side
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_ribbon
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_side
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hair_twin
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_hairpin
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_kemono_ear
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_kemono_tail
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_underwear_bra
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_underwear_panty
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Manuka_underwear_stocking
+      parentName: MANUKA(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

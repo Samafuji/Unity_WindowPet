@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using System;
+public class Calendar : MonoBehaviour
+{
+    public GameObject canvas;//エディタから指定
+    public GameObject prefab;//エディタから指定
+
+    void Start()
+    {
+        for (int i = 0; i < 42; i++)
+        {
+            GameObject button = Instantiate(prefab, canvas.transform);
+            button.GetComponent<Button>();
+        }
+    }
+}
